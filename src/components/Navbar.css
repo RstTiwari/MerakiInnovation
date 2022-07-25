@@ -5,6 +5,7 @@
   justify-content: center;
   align-items: center;
   font-size: 1.2rem;
+  text-align: center;
   position: sticky;
   top: 0;
   z-index: 999;
@@ -15,13 +16,11 @@
   justify-content: center;
   align-items: center;
   height: 80px;
-  max-width: 1500px;
 }
 
 .navbar-logo {
   color: #fff;
   justify-self: start;
-  margin-left: 20px;
   cursor: pointer;
   text-decoration: none;
   font-size: 2rem;
@@ -115,19 +114,19 @@
 
   .navbar-logo {
     position: absolute;
-    top: 0;
-    left: 0;
-    transform: translate(25%, 50%);
+    font-size: 1.2rem;
+    top: 1rem;
+    left: 1.5rem;
+   
   }
 
   .menu-icon {
     display: block;
     position: absolute;
-    top: 0;
-    right: 0;
-    transform: translate(-100%, 60%);
-    font-size: 1.8rem;
-    cursor: pointer;
+    top: 1rem;
+    right: 1.5rem;
+    font-size: 1.5rem;
+  
   }
 
   .fa-times {
